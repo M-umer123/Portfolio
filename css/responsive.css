@@ -142,4 +142,16 @@
     height: 300px;
 }
 
+
 }
+
+ @media (max-width: 700px) {
+    .whatsapp-contact {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .whatsapp-info {
+      text-align: center;
+    }
+  }
