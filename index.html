@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>M.Umer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="loader-wrapper">
+    <img src="assets/loader gif/loader.gif" alt="Loading...">
+</div>
+
+  <a class="skip" href="#main" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden">Skip
+    to content</a>
+
+  <header>
+    <div class="container" role="banner">
+      <nav aria-label="Main navigation">
+        <a class="brand" href="#home">
+          <div class="logo" aria-hidden="true">MU</div>
+          <span>Muhammad Umer</span>
+        </a>
+
+        <div class="menu" role="navigation" aria-label="Primary" id="primaryMenu">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:10px">
+          <a class="cta" href="#projects">View Work</a>
+          <button id="mobileToggle" class="mobile-toggle" aria-expanded="false" aria-controls="primaryMenu"
+            aria-label="Toggle menu">☰</button>
+             
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="main" role="main">
+
+
+    <section class="hero fade-in" id="home">
+      <div class="card hero-split" style="position: relative;">
+        <div class="logo hero-corner-logo" aria-hidden="true">MU</div>
+        <div class="intro">
+
+          <h1>I'm a <span id="auto-type"></span></h1>
+
+
+          <div class="benefit-header">
+            <h2>How can I benefit you?</h2>
+
+          </div>
+
+          <div class="benefits-vertical" aria-label="Benefits list">
+            <div class="benefit-item">
+              <div class="benefit-dot"></div>
+              <div class="benefit-text">
+                <strong>PHP & UI/UX Integration</strong>
+                <p>I can design interfaces in Figma and build them with PHP/MySQL for a seamless end-to-end product.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-dot"></div>
+              <div class="benefit-text">
+                <strong>AI-Powered Efficiency</strong>
+                <p>Leveraging Gemini and ChatGPT to accelerate coding and ensure high-quality, modern solutions.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-dot"></div>
+              <div class="benefit-text">
+                <strong>Visual Branding</strong>
+                <p>I am able to create posters and banners in Canva to support your brand's digital presence.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="actions">
+            <!-- <a class="btn primary" href="#projects">View Work</a> -->
+            <a class="btn ghost viewPage" target="_blank" href="https://github.com/M-umer123/M-umer123">Github</a>
+            <a class="btn primary " target="_blank" href="assets/resume/M.Umer.pdf">Download Resume</a>
+            
+          </div>
+        
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- REPLACE the duplicated about section with this single elegant block -->
+    <!-- <section id="about" aria-labelledby="about-heading" class="about-section">
+      <h2 id="about-heading">About</h2>
+
+      <div class="about-grid">
+        left: summary 
+        <div class="about-summary about-card">
+          <p class="lead">
+            Frontend Developer focused on building accessible, responsive, and high‑performance user interfaces.
+            I turn designs into production‑ready code, prioritize usability and performance, and collaborate closely
+            with designers and product teams.
+          </p>
+
+          <p class="muted">
+            Currently seeking frontend internship / junior roles. The details below are placeholders and easy to update.
+          </p>
+
+          <div class="meta-block">
+            <div>
+              <h3>Role overview</h3>
+              <p class="muted">Frontend Developer (Intern / Junior) — implement reusable components, responsive layouts.
+              </p>
+            </div>
+
+            <div>
+              <h3>Availability</h3>
+              <p class="muted">Available: Immediate · Location: Remote / Open to relocation</p>
+            </div>
+          </div>
+
+          <div class="actions" style="margin-top:12px">
+            <a class="btn primary" href="#contact">Contact</a>
+            <a class="btn ghost" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+        </div>
+
+        
+        <aside class="about-details about-card" aria-labelledby="skills-heading">
+          <h4 id="skills-heading" class="section-title">Key skills</h4>
+
+          <ul class="skill-list" aria-hidden="false">
+            <li class="skill-item">
+              <span class="skill-icon" aria-hidden="true">
+              
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </span>
+              <div class="skill-body">
+                <div class="skill-row">
+                  <strong>PHP, MYSQL</strong><span class="skill-pct">80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-value="80" aria-valuemin="0" aria-valuemax="100"
+                    aria-valuenow="0"></div>
+                </div>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                </svg>
+              </span>
+              <div class="skill-body">
+                <div class="skill-row">
+                  <strong>BootStrap, Figma</strong><span class="skill-pct">85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-value="85" aria-valuemin="0" aria-valuemax="100"
+                    aria-valuenow="0"></div>
+                </div>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <span class="skill-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 12h20" />
+                  <path d="M6 6l6 6-6 6" />
+                </svg>
+              </span>
+              <div class="skill-body">
+                <div class="skill-row">
+                  <strong>HTML, CSS, JS</strong><span class="skill-pct">70%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-value="70" aria-valuemin="0" aria-valuemax="100"
+                    aria-valuenow="0"></div>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+
+        </aside>
+      </div>
+    </section> -->
+
+
+    <!--  -->
+
+
+  <section id="about" class="about-section">
+  <div class="container">
+    
+    <div class="about-grid">
+      
+      <aside class="about-card profile-card">
+        <div class="profile-img-container">
+          <img src="assets/project images/My photo.jpg" alt="M. Umer" class="profile-img">
+        </div>
+        <div class="profile-meta">
+          <h3>M. Umer</h3>
+          <p class="small muted">Web Developer</p>
+          <ul class="personal-info-list">
+            <li><strong>Email</strong><span>2muhammadumer2@gmail.com</span></li>
+            <li><strong>Phone</strong><span>03378070453</span></li>
+            <li><strong>Location</strong><span>Naya Nazimabad</span></li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="content-column">
+        <div class="about-card bio-card">
+          <h3>About Me</h3>
+      <p>My name is M. Umer, and I am a Web Development student.  I have foundational experience developing websites with <strong>PHP and MySQL</strong>. I am a multi-time <strong>'Student of the Month'</strong> and hold a participation certificate from a <strong>MySQL Database competition</strong>. I am now seeking an internship to apply my skills within a professional environment and contribute to market-ready projects.</p>  
+          <div class="sub-grid">
+            <div class="education">
+              <h3>Education</h3>
+              <div class="edu-item">
+                <strong>Intermediate Graduate</strong>
+                <span>Premier College</span>
+              </div>
+              <div class="edu-item">
+                <strong>Web Dev Degree</strong>
+                <span>In Progress</span>
+              </div>
+            </div>
+
+            <div class="skills">
+              <h3>Achievements</h3>
+              <div class="cert-grid">
+                <div class="cert-item"><img src="assets/project images/WhatsApp Image 2026-02-06 at 6.21.01 PM.jpeg" alt="MySQL Award"></div>
+                <div class="cert-item"><img src="assets/project images/WhatsApp Image 2026-02-06 at 6.27.40 PM.jpeg" alt="Student of the Month"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+<div id="certificateModal" class="cert-modal" aria-hidden="true">
+  <span class="close-modal">&times;</span>
+  <div class="modal-wrapper">
+    <img id="modalImage" src="" alt="Full Certificate">
+    <div id="modalCaption"></div>
+  </div>
+</div>
+ 
+
+</section>
+
+ 
+
+
+
+    <!--  -->
+
+
+
+    <!-- replaced projects block: grid of frontend project cards -->
+    <section id="projects" aria-labelledby="projects-heading" class="projects-section">
+      <div class="container">
+        <h2 id="projects-heading">Projects - Work Experience</h2>
+        <p class="muted">A collection of digital works where creative design meets functional development, showcasing my ability to build clean and effective web solutions.</p>
+
+        <div class="projects-grid">
+          <article class="project-card about-card">
+            <img class="project-thumb" src="assets/project images/Php-Project.PNG">
+            <div class="project-body">
+              <h3 class="project-title">PHP CRUD</h3>
+              <p class="project-desc">Responsive product listing, product detail UI, filtering and cart UI — focused on
+                accessible markup and performant rendering.</p>
+              <div class="project-meta">
+                <span class="tag">PHP</span><span class="tag">MYSQL</span><span class="tag"></span>
+                <a class="btn ghost viewPage project-cta" target="_blank" href="http://php-project.infinityfree.me/View_products.php">View page</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card about-card">
+            <img class="project-thumb" src="assets/project images/project-1.jpeg" alt="Blog site ">
+            <div class="project-body">
+              <h3 class="project-title">Blog Template</h3>
+              <p class="project-desc">Content-first blog layout with readable typography, accessible headings, and
+                optimized article templates.</p>
+              <div class="project-meta">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+                <a target="_blank" class="btn ghost viewPage project-cta" href="https://m-umer123.github.io/Project-2-Html-CSS-Js/">View page</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card about-card">
+            <img class="project-thumb" src="assets/project images/project-2.jpeg" alt="Restaurant site ">
+            <div class="project-body">
+              <h3 class="project-title">HOUSE SELLERS</h3>
+              <p class="project-desc">Hero-focused landing with menu previews, reservations UI and mobile-first
+                interactions.</p>
+              <div class="project-meta">
+                <span class="tag">Bootstrap</span>
+                <a target="_blank" class="btn viewPage ghost project-cta" href="https://m-umer123.github.io/Project-1-BS/">View page</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card about-card">
+            <img class="project-thumb restaurant-image" src="assets/project images/project-3.jpeg" alt="Dictionary site ">
+            <div class="project-body">
+              <h3 class="project-title">Restaurant Landing</h3>
+              <p class="project-desc">Search-driven dictionary interface with progressive enhancement and keyboard-first
+                navigation.</p>
+              <div class="project-meta">
+                <span class="tag">Bootstrap</span>
+                <a class="btn viewPage ghost project-cta" target="_blank" href="https://m-umer123.github.io/project-2-BS/">View page</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card about-card">
+            <img class="project-thumb" src="assets/project images/project-4.jpeg" alt="Travel info site ">
+            <div class="project-body">
+              <h3 class="project-title">To Do List</h3>
+              <p class="project-desc">Information-heavy travel pages optimized for quick scanning and mobile navigation.
+              </p>
+              <div class="project-meta">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+                <a target="_blank" class="btn viewPage ghost project-cta" href="https://m-umer123.github.io/toDoList-live/">View page</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact" class="contact-section fade-in">
+      <div class="container">
+        <div class="contact-header">
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-desc">Get in touch instantly via WhatsApp</p>
+        </div>
+
+        <div class="whatsapp-card">
+          <div class="whatsapp-info">
+            <h4>Chat with me on WhatsApp</h4>
+            <p>Click the button or scan the QR code to start a conversation. I usually respond within a few hours.</p>
+
+            <a href="https://wa.me/923378070453" target="_blank" class="btn primary whatsapp-btn">
+              <span>💬 Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="whatsapp-qr-container">
+            <div class="qr-frame">
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/923378070453&color=0f1724&margin=10"
+                alt="WhatsApp QR Code" class="qr-img">
+            </div>
+            <p class="qr-label">Scan to chat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="container" role="contentinfo">
+    <p>&copy; <span id="year"></span> My Site. Built with care.</p>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
